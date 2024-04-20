@@ -5321,8 +5321,8 @@ static int haptics_start_lra_calibrate(struct haptics_chip *chip)
 		goto unlock;
 	}
 
-	/* Sleep 50ms to stabilize the LRA from impedance detection */
-	msleep(50);
+        /* Sleep 50ms to stabilize the LRA from impedance detection */
+        msleep(50);
 
 #ifdef OPLUS_FEATURE_CHG_BASIC
 	chip->cal_data.cl_t_lra_us = chip->config.cl_t_lra_us;
@@ -5331,7 +5331,6 @@ static int haptics_start_lra_calibrate(struct haptics_chip *chip)
 #endif
 
 #ifndef OPLUS_FEATURE_CHG_BASIC
-
 	rc = haptics_start_auto_brake_calibration(chip);
 	if (rc < 0) {
 		dev_err(chip->dev, "Run auto brake calibration failed, rc=%d\n", rc);

@@ -1005,6 +1005,7 @@ static inline vm_fault_t folio_lock_or_retry(struct folio *folio,
 	return 0;
 }
 
+
 #ifdef CONFIG_CONT_PTE_HUGEPAGE
 static inline vm_fault_t lock_nr_folios_or_retry(struct folio **folio, struct vm_fault *vmf,
 		int nr)
@@ -1034,7 +1035,6 @@ static inline vm_fault_t lock_nr_folios_or_retry(struct folio **folio, struct vm
 	return 0;
 }
 #endif
-
 /*
  * This is exported only for folio_wait_locked/folio_wait_writeback, etc.,
  * and should not be used directly.

@@ -29,7 +29,7 @@
 
 static struct clk_hw *measure;
 static bool debug_suspend;
-static bool debug_suspend_atomic;
+static bool debug_suspend_atomic = true;
 static bool qcom_clk_debug_inited;
 static struct dentry *clk_debugfs_suspend;
 static struct dentry *clk_debugfs_suspend_atomic;

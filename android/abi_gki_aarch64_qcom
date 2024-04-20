@@ -97,6 +97,8 @@
   blk_crypto_keyslot_index
   blk_crypto_register
   blkdev_get_by_dev
+  blk_crypto_keyslot_index
+  blk_crypto_register
   blk_execute_rq
   blk_execute_rq_nowait
   __blk_mq_alloc_disk
@@ -739,6 +741,22 @@
   divider_recalc_rate
   divider_ro_round_rate_parent
   divider_round_rate_parent
+  dm_bufio_client_create
+  dm_bufio_client_destroy
+  dm_bufio_mark_buffer_dirty
+  dm_bufio_new
+  dm_bufio_read
+  dm_bufio_release
+  dm_bufio_write_dirty_buffers
+  dm_disk
+  dm_get_device
+  dm_kobject_release
+  dm_read_arg_group
+  dm_register_target
+  dm_shift_arg
+  dm_table_get_md
+  dm_table_get_mode
+  dm_unregister_target
   dma_alloc_attrs
   dma_alloc_noncontiguous
   dma_alloc_pages
@@ -3378,6 +3396,7 @@
   __traceiter_android_rvh_shmem_get_folio
   __traceiter_android_rvh_show_max_freq
   __traceiter_android_rvh_tick_entry
+  __traceiter_android_vh_try_fixup_sea
   __traceiter_android_rvh_try_to_wake_up
   __traceiter_android_rvh_try_to_wake_up_success
   __traceiter_android_rvh_ttwu_cond
@@ -3441,6 +3460,7 @@
   __traceiter_android_vh_ufs_send_uic_command
   __traceiter_android_vh_ufs_update_sdev
   __traceiter_android_vh_update_topology_flags_workfn
+  __traceiter_android_vh_mpam_set
   __traceiter_binder_transaction_received
   __traceiter_cpu_frequency_limits
   __traceiter_cpu_idle
@@ -3526,6 +3546,7 @@
   __tracepoint_android_rvh_shmem_get_folio
   __tracepoint_android_rvh_show_max_freq
   __tracepoint_android_rvh_tick_entry
+  __tracepoint_android_vh_try_fixup_sea
   __tracepoint_android_rvh_try_to_wake_up
   __tracepoint_android_rvh_try_to_wake_up_success
   __tracepoint_android_rvh_ttwu_cond
@@ -3589,6 +3610,7 @@
   __tracepoint_android_vh_ufs_send_uic_command
   __tracepoint_android_vh_ufs_update_sdev
   __tracepoint_android_vh_update_topology_flags_workfn
+  __tracepoint_android_vh_mpam_set
   __tracepoint_binder_transaction_received
   __tracepoint_cpu_frequency_limits
   __tracepoint_cpu_idle
@@ -3939,6 +3961,7 @@
   vhost_dev_init
   vhost_dev_ioctl
   vhost_dev_stop
+  vhost_dev_flush
   vhost_disable_notify
   vhost_enable_notify
   vhost_get_vq_desc

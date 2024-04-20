@@ -43,6 +43,7 @@ enum panel_event_notifier_client {
 	PANEL_EVENT_NOTIFIER_CLIENT_MAX
 };
 
+
 enum panel_event_notification_type {
 	DRM_PANEL_EVENT_NONE,
 	DRM_PANEL_EVENT_BLANK,
